@@ -85,12 +85,12 @@ function draw() {
     fill(255, 255, 0);
     textSize(50);
     noStroke();
-    text("PRESS", width / 2, 100);
+    text("选择命运", width / 1.5, 100);
   } else {
     fill(255, 0, 0);
     textSize(50);
     noStroke();
-    text("Press to start over", width / 2.5, 100);
+    text("点击生成", width / 1.5, 100);
   }
 }
 

@@ -42,6 +42,7 @@ function setup() {
   capture.hide();
   dy1.resize(0, 100);
   dy = dy1.get(0, 0, dy1.width, 70);
+  dy.resize(0, 50);
   //let cx = (windowWidth - cnv.width) / 2;
   //let cy = (windowHeight - cnv.height) / 2;
   //cnv.position(cx, cy);
@@ -85,12 +86,12 @@ function draw() {
     fill(255, 255, 0);
     textSize(50);
     noStroke();
-    text("选择命运", width / 1.5, 100);
+    text("选择命运", width / 2.5, 100);
   } else {
     fill(255, 0, 0);
     textSize(50);
     noStroke();
-    text("点击生成", width / 1.5, 100);
+    text("点击生成", width / 2.5, 100);
   }
 }
 
